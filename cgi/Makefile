@@ -23,4 +23,5 @@ dummy_wrap.c: dummy.i
 	swig -python -o dummy_wrap.c dummy.i
 
 clean:
-	rm -f *.o *.so
+	rm -f *.o *.so dummy_wrap.c *.pyc dummy.py
+
