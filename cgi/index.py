@@ -27,5 +27,9 @@ for info in displayme:
     (name, value) = info
     print "<p>{0}: <b>{1}</b></p>".format(name, value)
 
+import dummy
+
+print "<p>Native extension test: <b>{0}</b></p>".format(dummy.hello_world(123))
+
 print "</body>"
 print "</html>"

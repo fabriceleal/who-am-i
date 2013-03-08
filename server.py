@@ -1,4 +1,4 @@
-
+#!/usr/bin/env python
 
 # from http://eli.thegreenplace.net/2008/09/06/local-execution-of-python-cgi-scripts/
 
