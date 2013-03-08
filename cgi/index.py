@@ -15,7 +15,8 @@ print "<head><title>Who am I?</title></head>"
 print "<body>"
 print "<h1>Who am I?</h1>"
 
-displayme = [("Machine", platform.machine()), ("Platform", platform.platform()),
+displayme = [("Architecture", platform.architecture()),
+             ("Machine", platform.machine()), ("Platform", platform.platform()),
              ("Compiler", platform.python_compiler()), ("Implementation", platform.python_implementation()),
              ("System", "{0}; {1}".format(platform.system(), platform.release())),
              ("Python version", platform.python_version())]
